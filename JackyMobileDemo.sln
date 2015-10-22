@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{90B79FE7-2FFA-4B60-8421-05E7594032B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BFC0A574-736C-492D-96B8-AA4F816B4DA5}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "JackyMobileDemo", "src\JackyMobileDemo\JackyMobileDemo.xproj", "{BE4A0CB6-68A9-4D8F-8AD3-93B93BD3B2DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE4A0CB6-68A9-4D8F-8AD3-93B93BD3B2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4A0CB6-68A9-4D8F-8AD3-93B93BD3B2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4A0CB6-68A9-4D8F-8AD3-93B93BD3B2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4A0CB6-68A9-4D8F-8AD3-93B93BD3B2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE4A0CB6-68A9-4D8F-8AD3-93B93BD3B2DC} = {90B79FE7-2FFA-4B60-8421-05E7594032B2}
+	EndGlobalSection
+EndGlobal

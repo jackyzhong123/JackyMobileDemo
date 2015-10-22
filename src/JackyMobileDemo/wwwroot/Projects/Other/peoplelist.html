@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>主页</title>
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" />
+    <script src="JS/jquery.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/jsrender.min.js"></script>
+    <style>
+        body {
+            font-family: Helvetica;
+        }
+
+        #headImg {
+            -moz-box-shadow: 2px 2px 10px #fff;
+            -webkit-box-shadow: 0px 0px 10px #fff;
+            box-shadow: 0px 0px 10px #fff;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .appdiv {
+            display: inline-block;
+            width: 50px;
+            text-align: center;
+            margin: 20px 10px;
+        }
+
+            .appdiv img {
+                border: 1px solid #ccc;
+                background-color: white;
+                padding: 2px;
+            }
+
+        .imgUpload {
+            width: 80px;
+            height: 80px;
+            margin-left: 10px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        .thumb {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            margin: 5px;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        .app-topbar .app-button[data-back].left {
+            height: auto;
+        }
+
+        .modal-backdrop {
+            background-color: transparent;
+        }
+
+        .modal-content {
+            background-color: rgba(0,0,0,0.6);
+            border-radius: 20px;
+            border: none;
+            box-shadow: 0 0 0;
+        }
+
+        #detailInfo td {
+            padding: 10px;
+        }
+
+        .scrollable {
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+            position: relative;
+            height: 100%;
+            background: #fff;
+        }
+
+        .headerimg {
+            width: 40px;
+            margin-left: 10px;
+        }
+
+        .thumbQ {
+            display: inline-block;
+            width: 70px;
+            height: 70px;
+            margin: 1px;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        #backgroundImg {
+            display: inline-block;
+            width: 100%;
+            height: 150px;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        .sharePart {
+            float: right;
+            font-size: smaller;
+            color: #93b6f6;
+            margin-right: 4px;
+        }
+
+        .linkThumb {
+            width: 36px;
+            height: 36px;
+            margin: 2px;
+        }
+
+        .linkTitle {
+            display: -webkit-box;
+            -webkit-box-pack: center;
+            -webkit-box-orient: vertical;
+            height: 41px;
+            text-overflow: ellipsis;
+        }
+
+        .linkDiv {
+            background-color: #f3f3f5;
+            margin-right: 5px;
+        }
+
+        .mediacontent {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .turngray {
+            filter: grayscale(100%);
+            -webkit-filter: grayscale(100%);
+            -moz-filter: grayscale(100%);
+            -o-filter: grayscale(100%);
+            -webkit-filter: grayscale(1);
+            filter: alpha(opacity=50);
+            -moz-opacity: 0.5;
+            -khtml-opacity: 0.5;
+            opacity: 0.5;
+        }
+
+        .media-heading {
+            font-size: 16px;
+        }
+
+        .hotdot {
+            position: absolute;
+            background-color: #1ab667;
+            right: 0;
+            top: 0;
+            width: 10px;
+            height: 10px;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 100%;
+            border-color: #ccc;
+        }
+
+
+
+        .media {
+            border-bottom: 1px solid #ccc;
+        }
+
+        body {
+            font-family: 微软雅黑;
+        }
+
+        .media p {
+            color: #aaa;
+        }
+
+        body {
+            padding: 5px;
+        }
+
+        .badge {
+            color: wheat;
+            background-color: red;
+        }
+
+        .thumbQ {
+            display: inline-block;
+            width: 117px;
+            height: 117px;
+            margin: 1px;
+            background-position: center center;
+            background-size: cover;
+        }
+    </style>
+    <script>
+      
+        function seeMorePeople() {
+        //    alert("gg")
+         //   location.href = 'ios://modal_nobar_' + encodeURIComponent("http://jacky.chinacloudsites.cn/viewimages.html")
+
+            location.href = "ios://modal_nobar_" + encodeURIComponent("http://jacky.chinacloudsites.cn/viewimages.html")
+         
+        }
+       
+    </script>
+</head>
+<body style="text-align:center" id="main" >
+
+    <div onclick="seeMorePeople()" class="thumbQ needReplace viewpics" style="background-image:url(http://tse1.mm.bing.net/th?&id=OIP.M6707c181d3a2e98172248ffac6e2bd02o0&w=300&h=300&c=0&pid=1.9&rs=0&p=0)" alt=" 媒体对象">
+        <div style="display:inline-block; color:white; padding-top:80px;">Sarsah</div>
+    </div>
+    <div class="thumbQ needReplace viewpics" style="background-image:url(http://tse1.mm.bing.net/th?&id=OIP.M6707c181d3a2e98172248ffac6e2bd02o0&w=300&h=300&c=0&pid=1.9&rs=0&p=0)" alt=" 媒体对象">        </div>
+    <div class="thumbQ needReplace viewpics" style="background-image:url(http://tse1.mm.bing.net/th?&id=OIP.M6707c181d3a2e98172248ffac6e2bd02o0&w=300&h=300&c=0&pid=1.9&rs=0&p=0)" alt=" 媒体对象">        </div>
+    <div class="thumbQ needReplace viewpics" style="background-image:url(http://tse1.mm.bing.net/th?&id=OIP.M6707c181d3a2e98172248ffac6e2bd02o0&w=300&h=300&c=0&pid=1.9&rs=0&p=0)" alt=" 媒体对象">        </div>
+    <div class="thumbQ needReplace viewpics" style="background-image:url(http://tse1.mm.bing.net/th?&id=OIP.M6707c181d3a2e98172248ffac6e2bd02o0&w=300&h=300&c=0&pid=1.9&rs=0&p=0)" alt=" 媒体对象">        </div>
+    <div class="thumbQ needReplace viewpics" style="background-image:url(http://tse1.mm.bing.net/th?&id=OIP.M6707c181d3a2e98172248ffac6e2bd02o0&w=300&h=300&c=0&pid=1.9&rs=0&p=0)" alt=" 媒体对象">        </div>
+    <div class="thumbQ needReplace viewpics" style="background-image:url(http://tse1.mm.bing.net/th?&id=OIP.M6707c181d3a2e98172248ffac6e2bd02o0&w=300&h=300&c=0&pid=1.9&rs=0&p=0)" alt=" 媒体对象">        </div>
+
+</body>
+</html>
+<script id="peopleTemp" type="text/x-jsrender">
+    <div onclick=" seeMorePeople()" class="thumbQ needReplace viewpics" style="background-image:url({{:img}})" alt=" 媒体对象">
+        <div style="display:inline-block; color:white; padding-top:86px;">{{:name}}</div>
+    </div>
+
+</script>
+
+ 
+<script>
+    var dataSrouce = [
+        { "name": "xxx", "img": "http://myt.edonesoft.com/weblogic/p/po/1.jpg" },
+        { "name": "xxx", "img": "http://myt.edonesoft.com/weblogic/p/po/2.jpg" },
+        { "name": "xxx", "img": "http://myt.edonesoft.com/weblogic/p/po/3.jpg" },
+        { "name": "xxx", "img": "http://myt.edonesoft.com/weblogic/p/po/4.jpg" },
+        { "name": "xxx", "img": "http://myt.edonesoft.com/weblogic/p/po/5.jpg" },
+        { "name": "xxx", "img": "http://myt.edonesoft.com/weblogic/p/po/6.jpg" },
+        { "name": "xxx", "img": "http://myt.edonesoft.com/weblogic/p/po/7.jpg" },
+        { "name": "xxx", "img": "http://myt.edonesoft.com/weblogic/p/po/8.jpg" },
+        { "name": "xxx", "img": "http://myt.edonesoft.com/weblogic/p/po/9.jpg" },
+        { "name": "xxx", "img": "http://myt.edonesoft.com/weblogic/p/po/10.jpg" },
+        { "name": "xxx", "img": "http://myt.edonesoft.com/weblogic/p/po/11.jpg" },
+        { "name": "xxx", "img": "http://myt.edonesoft.com/weblogic/p/po/12.jpg" },
+        { "name": "xxx", "img": "http://myt.edonesoft.com/weblogic/p/po/13.jpg"},
+         { "name": "xxx", "img": "http://myt.edonesoft.com/weblogic/p/po/14.jpg" },
+  { "name": "xxx", "img": "http://myt.edonesoft.com/weblogic/p/po/15.jpg" }
+    ];
+    $(function () {
+        var html = $("#peopleTemp").render(dataSrouce);
+        $("#main").html("")
+        $("#main").append(html);
+      
+ 
+    });
+
+
+</script>

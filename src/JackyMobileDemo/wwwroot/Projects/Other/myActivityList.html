@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>主页</title>
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" />
+    <script src="JS/jquery.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/jsrender.min.js"></script>
+    <style>
+        body {
+            font-family: Helvetica;
+        }
+
+        #headImg {
+            -moz-box-shadow: 2px 2px 10px #fff;
+            -webkit-box-shadow: 0px 0px 10px #fff;
+            box-shadow: 0px 0px 10px #fff;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .appdiv {
+            display: inline-block;
+            width: 50px;
+            text-align: center;
+            margin: 20px 10px;
+        }
+
+            .appdiv img {
+                border: 1px solid #ccc;
+                background-color: white;
+                padding: 2px;
+            }
+
+        .imgUpload {
+            width: 80px;
+            height: 80px;
+            margin-left: 10px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        .thumb {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            margin: 5px;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        .app-topbar .app-button[data-back].left {
+            height: auto;
+        }
+
+        .modal-backdrop {
+            background-color: transparent;
+        }
+
+        .modal-content {
+            background-color: rgba(0,0,0,0.6);
+            border-radius: 20px;
+            border: none;
+            box-shadow: 0 0 0;
+        }
+
+        #detailInfo td {
+            padding: 10px;
+        }
+
+        .scrollable {
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+            position: relative;
+            height: 100%;
+            background: #fff;
+        }
+
+        .headerimg {
+            width: 40px;
+            margin-left: 10px;
+        }
+
+        .thumbQ {
+            display: inline-block;
+            width: 70px;
+            height: 70px;
+            margin: 1px;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        #backgroundImg {
+            display: inline-block;
+            width: 100%;
+            height: 150px;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        .sharePart {
+            float: right;
+            font-size: smaller;
+            color: #93b6f6;
+            margin-right: 4px;
+        }
+
+        .linkThumb {
+            width: 36px;
+            height: 36px;
+            margin: 2px;
+        }
+
+        .linkTitle {
+            display: -webkit-box;
+            -webkit-box-pack: center;
+            -webkit-box-orient: vertical;
+            height: 41px;
+            text-overflow: ellipsis;
+        }
+
+        .linkDiv {
+            background-color: #f3f3f5;
+            margin-right: 5px;
+        }
+
+        .mediacontent {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .turngray {
+            filter: grayscale(100%);
+            -webkit-filter: grayscale(100%);
+            -moz-filter: grayscale(100%);
+            -o-filter: grayscale(100%);
+            -webkit-filter: grayscale(1);
+            filter: alpha(opacity=50);
+            -moz-opacity: 0.5;
+            -khtml-opacity: 0.5;
+            opacity: 0.5;
+        }
+
+        .media-heading {
+            font-size: 16px;
+        }
+
+        .hotdot {
+            position: absolute;
+            background-color: #1ab667;
+            right: 0;
+            top: 0;
+            width: 10px;
+            height: 10px;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 100%;
+            border-color: #ccc;
+        }
+
+
+
+        .media {
+            border-bottom: 1px solid #ccc;
+        }
+
+        body {
+            font-family: 微软雅黑;
+        }
+
+        .media p {
+            color: #aaa;
+        }
+
+        body {
+            padding: 5px;
+        }
+
+        .badge {
+            color: wheat;
+            background-color: red;
+        }
+
+        .thumbQ {
+            display: inline-block;
+            width: 70px;
+            height: 70px;
+            margin: 1px;
+            background-position: center center;
+            background-size: cover;
+        }
+    </style>
+    <script>
+        function newObj() {
+            location.href = 'ios://' + encodeURIComponent("http://prehdy.chinacloudsites.cn/User/Events/101224")
+        }
+    </script>
+</head>
+<body>
+
+    <div onclick="newObj()">
+
+        <div class="media">
+            <a class="pull-left" href="#">
+                <img class="headerimg media-object needReplace" src="http://www.runoob.com/wp-content/uploads/2014/06/64.jpg"
+                     alt="媒体对象">
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading" style="color:#656895">中国互联网金融峰会</h4>
+                <div>看大家玩的真Hight</div>
+                <div>
+
+                    <div class="thumbQ needReplace viewpics" style="background-image:url(http://tse1.mm.bing.net/th?&id=OIP.M6707c181d3a2e98172248ffac6e2bd02o0&w=300&h=300&c=0&pid=1.9&rs=0&p=0)" alt=" 媒体对象">        </div>
+                    <div class="thumbQ needReplace viewpics" style="background-image:url(http://cdn.huodongxing.com/logo/201509/4298187736800/432070788261180_v2small.jpg)" alt=" 媒体对象">        </div>
+                    <div class="thumbQ needReplace viewpics" style="background-image:url(http://cdn.huodongxing.com/logo/201509/4298187736800/432070788261180_v2small.jpg)" alt=" 媒体对象">        </div>
+                    <div class="thumbQ needReplace viewpics" style="background-image:url(http://cdn.huodongxing.com/logo/201509/4298187736800/432070788261180_v2small.jpg)" alt=" 媒体对象">        </div>
+                    <div class="thumbQ needReplace viewpics" style="background-image:url(http://cdn.huodongxing.com/logo/201509/4298187736800/432070788261180_v2small.jpg)" alt=" 媒体对象">        </div>
+                    <div class="thumbQ needReplace viewpics" style="background-image:url(http://cdn.huodongxing.com/logo/201509/4298187736800/432070788261180_v2small.jpg)" alt=" 媒体对象">        </div>
+                    <div class="thumbQ needReplace viewpics" style="background-image:url(http://cdn.huodongxing.com/logo/201509/4298187736800/432070788261180_v2small.jpg)" alt=" 媒体对象">        </div>
+                    <div class="thumbQ needReplace viewpics" style="background-image:url(http://cdn.huodongxing.com/logo/201509/4298187736800/432070788261180_v2small.jpg)" alt=" 媒体对象">        </div>
+                    <div class="thumbQ needReplace viewpics" style="background-image:url(http://cdn.huodongxing.com/logo/201509/4298187736800/432070788261180_v2small.jpg)" alt=" 媒体对象">        </div>
+
+
+                </div>
+                <div style="margin-top:4px; margin-bottom:4px; font-size:small; color:#656895"> <i class="glyphicon glyphicon-bullhorn"></i> 2015第二届中国互联网金融创新峰会 </div>
+            </div>
+        </div>
+
+        <div class="media">
+            <a class="pull-left" href="#" onclick="return false;">
+                <img class="headerimg media-object needReplace" src="http://www.runoob.com/wp-content/uploads/2014/06/64.jpg"
+                     alt="媒体对象">
+            </a>
+            <div class="media-body">
+
+                <h4 class="media-heading" style="color:#656895">TED 中国官方   </h4>
+
+                <div> 这是一个新的篇章 </div>
+                <div class="mediacontent">
+                    <div class="media linkDiv">
+                        <a class="pull-left" href="#">
+                            <img class="linkThumb media-object needReplace" src="http://www.runoob.com/wp-content/uploads/2014/06/64.jpg"
+                                 alt="媒体对象">
+                        </a>
+                        <div class="media-body">
+                            <div class="linkTitle">备战深马，其实你天生就会跑</div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top:4px; margin-bottom:4px; font-size:small; color:#656895"> <i class="glyphicon glyphicon-bullhorn"></i> TEDxWeiyu: Explore, Expand, Excel </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
+<script id="testTmpl" type="text/x-jsrender">
+    <li class="media" style="position:relative">
+        {{if show }}
+        <span class="badge" style="position:absolute;left:34px;top:0px; z-index:100000">5</span>
+        {{/if}}
+
+        <a class="pull-left" href="#">
+            <img class="media-object img-round" src="{{:img}}"
+                 alt="通用的占位符图像">
+
+        </a>
+        <div class="media-body">
+            <h4 class="media-heading">{{:title}}</h4>
+            <p>
+                {{:subtitle}}
+            </p>
+        </div>
+    </li>
+</script>
+<script id="testTmpl" type="text/x-jsrender">
+</script>
+<script>
+    var dataSrouce = [
+        { "show": true, "img": "http://img.yiqixxx.com/up/2014/07/14/a2e48518efe70968e561cc163cb3a45a.jpg-preview", "title": "交大红娘", "subtitle": "【交大红娘】单身派对：浪漫太湖，情定西山岛" },
+        { "show": false, "img": "http://img.yiqixxx.com/up/2014/07/30/764aa9dd83f48cf07cc94294c2307f55.jpg-preview", "title": "萤火虫户外旅行协会", "subtitle": "十一前所未有之武功山的秘密（10.1-10.6）" },
+        { "show": true, "img": "http://img.yiqixxx.com/up/2015/04/13/afd689a26909144b3d10c8ed08697a79.jpg-preview", "title": "上海暴走团", "subtitle": "【甘南朝圣】从香巴拉王国到扎尕那秘境的探寻之旅" },
+        { "show": false, "img": "http://img.yiqixxx.com/up/2015/05/12/dfbe17caf0b188a3db115c08de0ded9a.jpg-preview", "title": "OUCSH海大上海校友会", "subtitle": "2015年秋招募志愿者" },
+        { "show": true, "img": "http://img.yiqixxx.com/up/2015/07/13/5.png-preview", "title": "Me Cafe咖啡馆", "subtitle": "9月最浓的爱意，是为家人亲手制作月饼。" },
+        { "show": true, "img": "http://prehdy.chinacloudsites.cn/Upload/Portrait/Person/Thumbs/89c22183-e55c-48d4-abc0-5dfe76428222.jpg", "title": "华东师范大学哲学系", "subtitle": "第36次 - 探索宋明儒学研究的新范式" },
+    ];
+    $(function () {
+     //   var html = $("#testTmpl").render(dataSrouce);
+    //    $("#list").append(html);
+    });
+
+
+</script>
